@@ -12,7 +12,8 @@ def main(page: ft.Page):
 
     change = ft.RadioGroup(content=ft.Column([
         ft.Radio(value="Tais-toi Calcium", label="French"),
-        ft.Radio(value="黙れカルシウム", label="Yapanese")
+        ft.Radio(value="黙れカルシウム", label="Yapanese"),
+        ft.Radio(value="閉嘴，鈣", label="Ni hao")
     ]), on_change=buttom)
 
     row1 = ft.Row(controls=[text1])
