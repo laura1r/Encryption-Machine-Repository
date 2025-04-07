@@ -16,3 +16,4 @@ def main(page: ft.Page):
     row1 = ft.Row(text1)
     row2 = ft.Row(image1)
     page.add(t, row1, row2, change)
+ft.app(target=main)
